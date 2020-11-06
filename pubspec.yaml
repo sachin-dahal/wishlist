@@ -1,0 +1,44 @@
+name: wishlist
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+#  -------------- Flutter package dependencies  --------------
+  cupertino_icons: ^1.0.0
+  splashscreen: ^1.2.0
+  font_awesome_flutter: ^8.10.0
+  google_fonts: ^1.1.1
+  flutter_spinkit: ^4.1.2+1
+  get: ^3.15.0
+
+#  -------------- Flutter dev dependencies  --------------
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - google_fonts/
+
+  # fonts:
+  #   - family: BahijSultanNahia
+  #     fonts:
+  #       - asset: assets/font/BahijSultanNahiaRegular.ttf
+  #      - asset: fonts/Schyler-Italic.ttf
+  #        style: italic
+  #   - family: helveticaneue
+  #     fonts:
+  #       - asset: assets/font/helveticaneue/HelveticaNeueLight.ttf
